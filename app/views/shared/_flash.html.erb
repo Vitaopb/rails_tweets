@@ -1,9 +1,9 @@
 <% if !flash.empty? %>
-  <div class="container alert alert-info mt-4 text-center">
+  <div class="container alert alert-info mt-4 text-center role="alert">
     <%= flash[:notice]  %>
   </div>
 
-  <div class="container alert alert-warning mt-4 text-center">
+  <div class="container alert alert-warning mt-4 text-center role="alert">
     <%= flash[:alert]  %>
   </div>
 <% end %>
